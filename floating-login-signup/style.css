@@ -11,7 +11,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: -webkit-linear-gradient(left, #44a2ff, #74b9ff);
+  background: -webkit-linear-gradient(left, #e3cb82, #bda24f);
   font-family: 'Nunito', sans-serif;
 }
 .logo{
@@ -35,7 +35,7 @@ input, button{
   position: relative;
   width: 900px;
   height: 550px;
-  background: #fff;
+  background: #ebe2c5;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 

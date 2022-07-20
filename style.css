@@ -54,6 +54,7 @@ body{
 }
 .left{
 	flex-basis: 50%;
+	
 }
 .right{
 	flex-basis: 50%;
@@ -239,7 +240,7 @@ body{
 /* ! Members/User/Feedback Section */
 #members{
 	padding: 100px;
-	background: url(images/dumble.png);
+	/* background: url(images/YOGA/1192197.webp); */
 	background-size: 35% 35%;
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -477,9 +478,7 @@ textarea{
 	justify-content: center;
 	align-self: center;
 }
-.slider-sec{
-	
-}
+
 
 
 .swiper {

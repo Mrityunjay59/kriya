@@ -11,13 +11,13 @@ body {
     display: grid;
     place-items: center;
     height: 100vh;
-    background: #f3f8ff;
+    background: #e6cd82;
 }
 
 #container {
     height: 400px;
     width: 700px;
-    background: #fff;
+    background: #e6cd82;
     display: flex;
     flex-direction: row;
     border-radius: 40px 0;
@@ -33,7 +33,7 @@ body {
 }
 
 #guide {
-    background: #74b9ff;
+    background: #ccb161;
 }
 
 #calculator h2,
@@ -41,7 +41,7 @@ body {
     text-align: center;
     font-size: 30px;
     margin: 20px 0;
-    color: #74b9ff;
+    color: #ffffff;
 }
 
 #guide h2 {
@@ -55,16 +55,16 @@ body {
     width: 310px;
     margin: 10px 0;
     padding: 0px 15px;
-    border: 2px solid #74b9ff;
+    border: 2px solid #eddba5;
     outline: none;
     background: #f3f8ff;
-    color: #74b9ff;
+    color: #f0f3f6;
     font-size: 15px;
     font-weight: 800;
 }
 
 #calculator input[type="text"]::placeholder {
-    color: #74b9ff;
+    color: #ecdbaa;
 }
 
 #calculator input[type="submit"] {
@@ -74,7 +74,7 @@ body {
     padding: 0px 15px;
     border: none;
     outline: none;
-    background: #74b9ff;
+    background: #c59609;
     color: #fff;
     font-size: 15px;
     font-weight: 800;
@@ -83,7 +83,7 @@ body {
 
 #calculator #yourBMI {
     font-size: 20px;
-    color: #74b9ff;
+    color: #ffffff;
     font-weight: 800;
 }
 
