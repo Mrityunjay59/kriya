@@ -1,7 +1,9 @@
+<?php include('server.php') ?>
 <!DOCTYPE html>
+
 <html>
 <head>
-	<title>How to Design Login & Registration Form Transition</title>
+	<title> Login & Registration </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -10,18 +12,22 @@
 <body>
   
   <div class="cont">
-    <span class="logo" style="color: #74b9ff;">CTRL</span><span class="logo1" style="font-style: italic;">fit</span>
+    <span class="logo" style="color: #4b493b;">Kriya</span><span class="logo1" style="font-style: italic;"></span>
     <div class="form sign-in">
+    <form method="post" action="register.php">
+    <?php include('./error.php'); ?>
       <h2>Sign In</h2>
-      <label>
-        <span>Email Address</span>
-        <input type="email" name="email">
-      </label>
-      <label>
-        <span>Password</span>
-        <input type="password" name="password">
-      </label>
-      <button class="submit" type="button">Sign In</button>
+      <div class="input-group">
+  		<label>Username</label>
+  		<input type="text" name="username" >
+  	</div>
+  	<div class="input-group">
+  		<label>Password</label>
+  		<input type="password" name="password">
+  	</div>
+  	<div class="input-group">
+  		<button type="submit" class="btn" name="login_user">Login</button>
+  	</div>
       <p class="forgot-pass">Forgot Password ?</p>
 
       <div class="social-media">
@@ -32,6 +38,7 @@
           <li><img src="images/instagram.png"></li>
         </ul>
       </div>
+</form>
     </div>
 
     <div class="sub-cont">
@@ -49,8 +56,9 @@
           <span class="m-in">Sign In</span>
         </div>
       </div>
-      <div class="form sign-up">
-        <h2>Sign Up</h2>
+      <!-- <div class="form sign-up">
+      <form method="post" action="index.php">
+        
         <label>
           <span>Name</span>
           <input type="text">
@@ -68,7 +76,38 @@
           <input type="password">
         </label>
         <button type="button" class="submit">Sign Up Now</button>
-      </div>
+      </div> -->
+      
+
+      <div class="form sign-up">
+  <form method="post" action="register.php">
+  <h2>Sign Up</h2>
+  	<?php include('./error.php'); ?>
+  	<div class="input-group">
+  	  <label>Username</label>
+  	  <input type="text" name="username" value="<?php echo $username; ?>">
+  	</div>
+  	<div class="input-group">
+  	  <label>Email</label>
+  	  <input type="email" name="email" value="<?php echo $email; ?>">
+  	</div>
+  	<div class="input-group">
+  	  <label>Password</label>
+  	  <input type="password" name="password_1">
+  	</div>
+  	<div class="input-group">
+  	  <label>Confirm password</label>
+  	  <input type="password" name="password_2">
+  	</div>
+  	<div class="input-group">
+  	  <button type="submit " class="btn submit" name="reg_user">Register</button>
+  	</div>
+  	<!-- <p>
+  		Already a member? <a href="login.php">Sign in</a>
+  	</p> -->
+  </form>
+
+</div>
     </div>
   </div>
 <script type="text/javascript" src="script.js"></script>
