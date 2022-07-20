@@ -12,7 +12,7 @@
 <body>
   
   <div class="cont">
-    <span class="logo" style="color: #4b493b;">Kriya</span><span class="logo1" style="font-style: italic;"></span>
+    <span class="logo" style="color: #74b9ff;">KRI</span><span class="logo1" style="font-style: italic;">YA</span>
     <div class="form sign-in">
     <form method="post" action="register.php">
     <?php include('./error.php'); ?>

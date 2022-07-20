@@ -7,6 +7,7 @@ header{
        box-sizing: border-box;
        padding: 0;
        margin: 0;
+       background-color: #edd794;
        /* border: aquamarine; */
        /* background-color:cornsilk; */
    }
@@ -18,7 +19,7 @@ header{
    
    .navbar {
        font-size: 18px;
-       background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+       background-image: linear-gradient(260deg, #ccae55 0%, #ccae55 100%);
        border: 1px solid rgba(0, 0, 0, 0.2);
        padding-bottom: 10px;
    }
@@ -96,6 +97,12 @@ darkgray   .logo {
            color: rgba(255, 255, 255, 1);
        }
    }
+   .pic{
+    height: 90px;
+    width: 90px;
+    margin-right: 40%;
+
+   }
    #myPic{
        background-color: #cccccc;
        height: 500px;
@@ -119,7 +126,7 @@ darkgray   .logo {
        padding-right: 20px;
      }
  .greet{
-     color: burlywood;
+     color: black;
      text-align: center;
      font-weight: bold;
  }   
