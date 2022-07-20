@@ -24,7 +24,11 @@ body{
 	letter-spacing: 5px;
 }
 #blue{
-	color:#fdd96e;
+	color:#91741c;
+}
+#bluee{
+	color:#91741c;
+	font-size: 30px;
 }
 
 .menu a{
@@ -54,6 +58,7 @@ body{
 }
 .left{
 	flex-basis: 50%;
+	margin-right: 2%;
 	
 }
 .right{
@@ -107,7 +112,8 @@ body{
 	text-align: center;
 }
 .about-right-col img{
-	width: 80%;
+	height: 110%;
+	width: 95%;
 }
 .about-left-col{
 	max-width: 400px;
@@ -119,14 +125,14 @@ body{
 	font-size: 50px;
 }
 .about-left-col p{
-	font-size: 20px;
+	font-size: 25px;
 	text-align: justify;
 	margin:15px 0px;
 }
 .List{
 	margin-left: 50px;
-	font-size: 20px;
-	color: #74b9ff;
+	font-size: 22px;
+	color: #7E8446;
 	font-weight: bold;
 }
 
@@ -165,7 +171,7 @@ body{
 	text-align:center;
 }
 .signup-left-col img{
-	width: 60%;
+	width: 90%;
 }
 .signup-right-col{
 	flex-basis: 50%;
@@ -269,6 +275,10 @@ body{
 	font-size: 25px;
 	margin:20px 0px;
 }
+#infoo{
+	font-size: 17px;
+}
+
 #highlight{
 	color: #ccae55;
 	font-weight: bold;
